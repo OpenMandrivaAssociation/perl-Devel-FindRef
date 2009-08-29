@@ -1,5 +1,5 @@
 %define upstream_name    Devel-FindRef
-%define upstream_version 1.42
+%define upstream_version 1.421
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
