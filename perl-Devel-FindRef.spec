@@ -11,8 +11,9 @@ Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Devel/%{upstream_name}-%{upstream_version}.tar.gz
 
-
+BuildRequires: perl(common::sense)
 BuildRequires: perl-devel
+
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}
 
 %description
