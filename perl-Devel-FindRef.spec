@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 3
+Release:	4
 
 Summary:    Where is that reference to my variable hiding?
 License:    GPL+ or Artistic
